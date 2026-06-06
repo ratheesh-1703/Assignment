@@ -46,7 +46,7 @@ export default function Signup() {
             name="fullName"
             value={form.fullName}
             onChange={handleChange}
-            placeholder="Marry Doe"
+            placeholder="Enter full name"
             autoComplete="name"
             required
           />
@@ -56,7 +56,7 @@ export default function Signup() {
             type="tel"
             value={form.phoneNumber}
             onChange={handleChange}
-            placeholder="Marry Doe"
+            placeholder="Enter phone number"
             autoComplete="tel"
             required
           />
@@ -66,7 +66,7 @@ export default function Signup() {
             type="email"
             value={form.email}
             onChange={handleChange}
-            placeholder="Marry Doe"
+            placeholder="Enter email address"
             autoComplete="email"
             required
           />
@@ -76,7 +76,7 @@ export default function Signup() {
             type="password"
             value={form.password}
             onChange={handleChange}
-            placeholder="Marry Doe"
+            placeholder="Enter password"
             autoComplete="new-password"
             required
           />
@@ -85,7 +85,7 @@ export default function Signup() {
             name="companyName"
             value={form.companyName}
             onChange={handleChange}
-            placeholder="Marry Doe"
+            placeholder="Enter company name"
             autoComplete="organization"
           />
 
